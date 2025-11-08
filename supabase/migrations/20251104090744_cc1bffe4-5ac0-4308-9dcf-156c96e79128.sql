@@ -1,0 +1,9 @@
+-- Enable realtime for key tables
+ALTER PUBLICATION supabase_realtime ADD TABLE public.classes;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.notifications;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.attendance;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.test_marks;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.tasks;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.task_submissions;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.class_notes;
+ALTER PUBLICATION supabase_realtime ADD TABLE public.fees;
